@@ -1,0 +1,53 @@
+Repository Managers:
++++++++++++++
+
+github
+gitlab
+gerrit
+bitbucket
+******************
+Commands:::
+*****************
+git config --global user.name "name"
+git config --global user.email "@email"
+git config --global push.default "simple"
+
+git config --list
+git clone <central repository> <local repository>
+git add .
+git commit -m ""
+git push
+git pull
+git status
+git log
+git show <commit id>
+
+git branch
+git branch <name>
+git checkout <branchname>
+git log --oneline
+git merge <src> <des>
+git cherry-pick <commitid>
+git diff master <branchname>
+git branch -a
+
+
+git stash
+git stash list
+git stash pop
+git stash apply stash@{num}
+git stash clear
+
+
+git reset --soft
+git reset --mixed
+git reser -- hard
+
+git revert <commit>
+git checkout <Commit_id>
+git rm <file>
+git clean -n
+git clean -f
+
+git checkout <file>
+

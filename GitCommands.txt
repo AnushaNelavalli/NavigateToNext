@@ -30,7 +30,8 @@ git merge <src> <des>
 git cherry-pick <commitid>
 git diff master <branchname>
 git branch -a
-
+git branch origin --delete <branch Name>
+git branch -d <branchName> #local repository delete 
 
 git stash
 git stash list
